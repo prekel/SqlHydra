@@ -1,7 +1,7 @@
 ﻿namespace SqlHydra.Query
 
 open System.Data.Common
-open FSharp.Control.Tasks.V2
+open FSharp.Control
 open SqlKata
 
 /// Contains methods that compile and read a query.

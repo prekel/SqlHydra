@@ -3,7 +3,7 @@
 open System.Data
 open Microsoft.Data.SqlClient
 open SampleApp.AdventureWorks // Generated Types
-open FSharp.Control.Tasks.V2
+open FSharp.Control
 open Donald
 
 let connect() = 

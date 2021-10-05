@@ -2,7 +2,7 @@
 open System.Data
 open Microsoft.Data.SqlClient
 open SampleApp.AdventureWorks // Generated Types
-open FSharp.Control.Tasks.V2
+open FSharp.Control
 
 let connect() = 
     let cs = "Data Source=localhost\SQLEXPRESS;Initial Catalog=AdventureWorksLT2019;Integrated Security=SSPI;"

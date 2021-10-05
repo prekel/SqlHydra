@@ -4,7 +4,7 @@ open Microsoft.Data.SqlClient
 open Dapper.FSharp.LinqBuilders
 open Dapper.FSharp.MSSQL
 open SampleApp.AdventureWorks // Generated Types
-open FSharp.Control.Tasks.V2
+open FSharp.Control
 
 Dapper.FSharp.OptionTypes.register()
 

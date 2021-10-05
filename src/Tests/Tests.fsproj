@@ -35,6 +35,7 @@
     <PackageReference Include="Expecto" Version="9.0.4" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
     <PackageReference Include="YoloDev.Expecto.TestSdk" Version="0.12.8" />
+    <PackageReference Update="FSharp.Core" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SqlHydra.Npgsql\SqlHydra.Npgsql.fsproj" />
